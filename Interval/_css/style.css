@@ -1,0 +1,150 @@
+body
+{
+width:80%;
+margin:0 auto;
+background:#000;
+}
+
+#container
+{
+margin:10px 0;
+
+}
+
+.caixa
+{
+float:left;
+box-sizing:border-box;
+}
+
+.caixa1
+{
+width:25%;
+}
+
+
+.caixa2
+{
+width:50%;
+}
+
+.caixa3
+{
+width:75%;
+}
+
+.caixa4
+{
+width:100%;
+}
+
+.caixaDt,.caixaResult
+{
+text-align:center;
+
+}
+
+.customInpDt
+{
+cursor:pointer;
+width:70%;
+height:30px;
+text-align:center;
+margin-top:8px;
+font-family:"Tlwg Typist";
+font-weight:bolder;
+border:1px solid #fff;
+color:#fff;
+background:#000;
+text-align:center;
+}
+
+.customSpanDt
+{
+color:#fff;
+display:block;
+font-family:arial;
+}
+
+
+
+#tagExibeResultado
+{
+font-family:arial;
+color:#fff;
+}
+
+
+
+
+@media screen and (max-width:1000px)
+{
+
+    body
+    {
+    width:100%;    
+    }
+    
+   
+
+}
+
+@media screen and (max-width:800px)
+{
+
+    .caixa1
+    {
+     width:50%;   
+    }
+
+    .caixa2
+    {
+     width:100%;   
+    }
+
+}
+
+
+@media screen and (max-width:500px)
+{
+
+    .caixa1
+    {
+     width:100%;   
+    }
+
+    .caixa2
+    {
+     width:100%;   
+    }
+
+    .caixaDt
+    {
+    margin:5px 0;
+    }
+
+    #tagExibeResultado
+    {
+     font-size:15px;   
+
+    }
+
+
+}
+
+@media screen and (max-width:400px)
+{
+
+    .customSpanDt
+    {
+     font-size:14px;  
+    }
+
+
+    #tagExibeResultado
+    {
+     font-size:14px;   
+    }
+
+
+}
